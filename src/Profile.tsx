@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Link as LinkIcon, Calendar } from 'lucide-react';
 
 export default function Profile() {
