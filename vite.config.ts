@@ -9,11 +9,11 @@ export default defineConfig({
     tailwindcss(), 
 
     federation({
-      name: "remote_app",
+      name: "profile_remote",
       filename: "remoteEntry.js",
 
       exposes: {
-        "./Dashboard": "./src/MfeDashboard.tsx",
+        "./Profile": "./src/Profile.tsx",
       },
       shared: ["react", "react-dom"],
     }),
