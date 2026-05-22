@@ -25,7 +25,7 @@ export default defineConfig({
     modulePreload: false,
   },
   preview: {
-    port: 3001,
+    port: 5002,
     cors: true,
   },
 });
